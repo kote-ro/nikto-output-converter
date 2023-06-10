@@ -1,0 +1,29 @@
+{
+    "info_0": "Nikto v2.1.6",
+    "STATUS": "Starting up!",
+    "Target IP": "54.225.198.196",
+    "Target Hostname": "pbs.org",
+    "Traget Port": "443",
+    "Start Time": "2018-12-05 23:34:06 (GMT-8)",
+    "Server": "nginx",
+    "info_1": "The anti-clickjacking X-Frame-Options header is not present.",
+    "info_2": "The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS",
+    "Uncommon header 'x-pbs-fwsrvname' found, with contents": "fwcacheproxy1",
+    "info_3": "The site uses SSL and the Strict-Transport-Security HTTP header is not defined.",
+    "info_4": "The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type",
+    "info_5": "No CGI Directories found (use '-C all' to force check all possible dirs)",
+    "RC-1918 IP address found in the 'x-pbs-appsvrip' header": "The IP is \"10.137.181.52\".",
+    "Uncommon header 'x-cache-fs-status' found, with contents": "EXPIRED",
+    "Uncommon header 'x-pbs-appsvrname' found, with contents": "fwcacheproxy1",
+    "Uncommon header 'x-pbs-appsvrip' found, with contents": "10.137.181.52",
+    "Server leaks inodes via ETags, header found with file /pbs.org.zip, fields": "0x5b96537e 0x1678",
+    "7446 requests": "0 error(s) and 10 item(s) reported on remote host",
+    "End Time": "2018-12-06 00:30:29 (GMT-8) (3383 seconds)",
+    "info_6": "1 host(s) tested",
+    "SSl Info": {
+        "Subject": "/CN=www.pbs.org",
+        "Altnames": "account.pbs.org, admin.pgs.org, dipsy-tc.pbs.org, docs.pbs.org, ga.video.cdn.pbs.org, git.pbs.org, heart.ops.pbs.org, hub-dev.pbs.org, image.pbs.org, jaws..pbs.org, kids.pbs.org, koth-qa.svp.pbs.org, login.pbs.org, ops.pbs.org, pbs.org, player.pbs.org, projects.pbs.org, sentry.pbs.org, teacherline.pbs.org, urs.pbs.org, video.pbs.org, weta-qa.svp.pbs.org, whut-qa.svp.pbs.org, wnet.video-qa.pbs.org, wnet.video-staging.pbs.org, www-cache.pbs.org, www.pbs.org",
+        "Ciphers": "ECDHE-RSA-AES128-GCM-SHA256",
+        "Issuer": "/C-US/0=Let's Encrypt/CN=Let's Encrypt Authority X3"
+    }
+}

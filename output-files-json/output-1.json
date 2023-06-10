@@ -1,0 +1,19 @@
+{
+    "info_0": "Nikto v2.1.6",
+    "Target IP": "128.199.222.244",
+    "Target Hostname": "thewebchecker.com",
+    "Target Port": "80",
+    "Start Time": "2016-08-22 06:33:13 (GMT8)",
+    "Server": "Apache/2.4.18 (Ubuntu)",
+    "Server leaks inodes via ETags, header found with file /, fields": "0x2c39 0x53a938fc104ed",
+    "info_1": "The anti-clickjacking X-Frame-Options header is not present.",
+    "info_2": "The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS",
+    "info_3": "The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type",
+    "info_4": "No CGI Directories found (use '-C all' to force check all possible dirs)",
+    "Allowed HTTP Methods": "GET, HEAD, POST, OPTIONS",
+    "Uncommon header 'x-ob_mode' found, with contents": "1",
+    "/phpmyadmin/": "phpMyAdmin directory found",
+    "7596 requests": "0 error(s) and 10 item(s) reported on remote host",
+    "End Time": "2016-08-22 06:54:44 (GMT8) (1291 seconds)",
+    "info_5": "1 host(s) tested"
+}
